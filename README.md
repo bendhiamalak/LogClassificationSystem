@@ -8,20 +8,20 @@ This project follows a hybrid approach:
 - Served via FastAPI API for easy integration.
 
 ### Features
-✅ Regex-based rules.
-✅ Transformer embeddings (all-MiniLM-L6-v2) for semantic understanding of logs.
-✅ Logistic Regression classifier trained on embeddings.
-✅ LLM integration (LLaMA-3 via Groq API) for special cases.
-✅ REST API (FastAPI) to classify logs from CSV input.
-✅ Modular design (processor_regex.py, processor_bert.py, processor_llm.py).
+-✅ Regex-based rules.
+-✅ Transformer embeddings (all-MiniLM-L6-v2) for semantic understanding of logs.
+-✅ Logistic Regression classifier trained on embeddings.
+-✅ LLM integration (LLaMA-3 via Groq API) for special cases.
+-✅ REST API (FastAPI) to classify logs from CSV input.
+-✅ Modular design (processor_regex.py, processor_bert.py, processor_llm.py).
 
 ### Tech Stack
-Python 
-FastAPI & Uvicorn (API backend)
-scikit-learn (Logistic Regression)
-SentenceTransformers (Embeddings)
-Groq API (LLM)
-pandas, numpy (data handling)
+- Python 
+- FastAPI & Uvicorn (API backend)
+- scikit-learn (Logistic Regression)
+- SentenceTransformers (Embeddings)
+- Groq API (LLM)
+- pandas, numpy (data handling)
 
 
 ### Installation
